@@ -144,4 +144,31 @@ section {
     line-height: 1.5rem;
 }
 
+.d_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    background-color: #ff595990;
+    padding: 50px;
+    margin: 30px;
+}
+
+.item-con {
+    margin-left: 15px;
+}
+
+.item-con h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.item-con p {
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
 /* END SERVICE SECTION  */
