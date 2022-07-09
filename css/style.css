@@ -100,7 +100,7 @@ nav li a {
 
 /* START ABOUT SECTION  */
 section {
-    margin: 80px 8%;
+    margin: 120px 8%;
 }
 
 .content {
@@ -115,13 +115,33 @@ section {
     text-align: center;
 }
 
-.about h1 {
+.container h1 {
     font-size: 60px;
 }
 
-.about p {
+.container p {
     margin-bottom: 20px;
     margin-top: 30px;
+    line-height: 1.5rem;
 }
 
 /* START ABOUT SECTION  */
+
+
+/* START SERVICE SECTION  */
+
+.service-content {
+    text-align: center;
+}
+
+.service-content h2 {
+    font-size: 40px;
+}
+
+.service-content p {
+    width: 60%;
+    margin: 10px auto;
+    line-height: 1.5rem;
+}
+
+/* END SERVICE SECTION  */
