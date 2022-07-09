@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/backgroundPic.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 8%;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.logo {
+    width: 5%;
+}
+
+
+
+.login {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #0a75d3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Visit {
+    margin-top: 10px;
+}
+
+.nature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+}
+
+.nature-text h1 {
+    font-size: 60px;
+    color: rgb(241, 232, 232);
+}
+
+.nature-text p {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
