@@ -219,3 +219,25 @@ section {
     font-weight: bold;
 
 }
+
+/* FORM SECTION  */
+.form-control {
+    text-align: center;
+}
+
+.form input {
+    padding: 10px 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px 10px;
+    font-size: 16px;
+}
+
+fieldset {
+    padding-bottom: 20px;
+}
+
+.form input:focus {
+    outline: none;
+}
