@@ -154,7 +154,7 @@ section {
     display: flex;
     background-color: #ff595990;
     padding: 50px;
-    margin: 30px;
+    margin: 30px 30px;
 }
 
 .item-con {
@@ -172,3 +172,24 @@ section {
 }
 
 /* END SERVICE SECTION  */
+
+
+.img-gll {
+    width: 33%;
+
+}
+
+.img-album {
+    margin-top: 50px;
+}
+
+.img-gll img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.pic-block {
+    margin: 0 10px;
+}
